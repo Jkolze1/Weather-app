@@ -1,0 +1,145 @@
+/*
+  Styles from this codepen:
+  https://codepen.io/official_naveen/pen/rgknI
+*/
+
+body {
+  width: 800px;
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+  margin-top:150px;
+
+}
+.container {
+  width: 600px;
+  margin: 0 auto;
+  background-color:white;
+  border-radius:15px;
+
+}
+fieldset {
+  margin-top:-20px;
+  display: block;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-before: 0em;
+  -webkit-padding-start: 0em;
+  -webkit-padding-end: 0em;
+  -webkit-padding-after: 0em;
+  border: 0px;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  min-width: -webkit-min-content;
+  padding: 30px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Lato:400,600");
+
+:root {
+  --input-padding-x: 1.5rem;
+  --input-padding-y: .75rem;
+}
+
+body {
+  background: #3494e6;
+
+  /*background: linear-gradient(90deg, #3494e6, #ec6ead);*/
+}
+
+
+
+.card-signin .card-title {
+  margin-bottom: 2rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+  font-family: 'Open Sans', sans-serif;
+  color:#ea6982;
+  margin-right:20px;
+}
+
+.card-signin .card-body {
+  padding: 2rem;
+ 
+}
+
+.form-signin {
+  width: 90%;
+}
+
+
+
+.form-label-group {
+  position: relative;
+  margin-bottom: .9rem;
+  margin-right:10px;
+}
+
+.form-label-group input {
+  height: auto;
+  border-radius: .6rem;
+  font-family: 'Open Sans', sans-serif;
+  margin-left:20px;
+
+}
+
+.form-label-group>input,
+.form-label-group>label {
+  padding: var(--input-padding-y) var(--input-padding-x);
+}
+
+.form-label-group>label {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  right:0px;
+  display: block;
+  width: 100%;
+  margin-bottom: 0;
+  line-height: 1.5;
+  color: #495057;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  transition: all .1s ease-in-out;
+
+}
+
+.ghost-input {
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:400;
+  width: 80%;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius:10px;
+  background: #fff;
+  
+  padding: 10px 15px;
+  margin: 30px 0px;
+
+}
+p{
+  font-weight:500;
+  width: 80%;
+  font-size: 18px;
+  color: black;
+  font-family: 'Lato', sans-serif;
+}
+
+.ghost-button {
+  /*border:2px solid #ddd;*/
+  border-radius:25px;
+  padding:10px;
+  border: 1px solid #ddd;
+  width: 10%;
+  min-width: 130px;
+  font-family: 'Open Sans', sans-serif;
+  color:grey;
+  font-size:16px;
+  font-weight:400px;
+
+}
+

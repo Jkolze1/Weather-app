@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Test</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:700|Open+Sans" rel="stylesheet">
+
+  </head>
+  <body>
+      <div class="container" style="margin-top:90px;">
+          <div class="row">
+            <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+              <div class="card card-signin my-5">
+                <div class="card-body">
+      
+                    <fieldset>
+                        <form action="/" method="post">
+                          <h1>Please enter a city...</h1>
+                          <input name="city" type="text" class="ghost-input" placeholder="Enter a City" required>
+                          <input type="submit" class="ghost-button" style="border-radius:10px;" value="Get Weather">
+                        </form>
+                        <br>
+                        <% if(weather !== null){ %>
+                          <p><%= weather %></p>
+                        <% } %>
+                
+                        <% if(error !== null){ %>
+                          <p><%= error %></p>
+                        <% } %>
+                   
+
+                      </fieldset>
+               
+
+
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+
+
+  </body>
+</html>
