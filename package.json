@@ -13,10 +13,9 @@
   },
   "author": "Jack Kolze",
   "license": "ISC",
-  "bugs": {jkolze1
-    "url": "https://jkolze1.github.io/Weather-app/"
+   "url": "https://jkolze1.github.io/Weather-app/"
   },
-  "homepage": "https://github.com/jkolze1/simple-nodejs-weather-app#readme",
+  "homepage": "https://jkolze1.github.io/Weather-app/",
   "dependencies": {
     "body-parser": "^1.17.2",
     "ejs": "^2.6.1",
